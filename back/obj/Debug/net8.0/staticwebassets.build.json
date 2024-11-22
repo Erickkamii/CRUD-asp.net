@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "1/mRu9BUZMABfYi52mCh8cO+6s9ipKGjZt6Ll2fEQs8=",
+  "Hash": "MHgVmH8ptGOMWRjCdNNz3HhfV9v2sS5uFF1losshPCs=",
   "Source": "back",
   "BasePath": "_content/back",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "back\\wwwroot",
+      "Source": "back",
+      "ContentRoot": "C:\\asp\\back\\wwwroot\\",
+      "BasePath": "_content/back",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
